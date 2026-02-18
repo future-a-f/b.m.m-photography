@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch for photography services. Contact form, email, phone, and location information. Let's discuss your photography needs.">
+    <meta name="keywords" content="contact photographer, photography inquiry, book photographer, photography services contact">
+    <title>Contact | B.M.M Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">B.M.M Photography</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="contact-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Let's discuss your photography needs and create something beautiful together</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send a Message</h2>
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="wedding">Wedding Photography</option>
+                                <option value="portrait">Portrait Photography</option>
+                                <option value="event">Event Photography</option>
+                                <option value="commercial">Commercial Photography</option>
+                                <option value="fashion">Fashion Photography</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="event-date">Event Date (if applicable)</label>
+                            <input type="date" id="event-date" name="event-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label>
+                                <input type="checkbox" name="privacy" required aria-required="true">
+                                <span>I agree to the privacy policy and consent to being contacted</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper">
+                    <h2>Contact Information</h2>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">📧</div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <a href="mailto:Programseduc@gmil.com">Programseduc@gmil.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📱</div>
+                            <div class="info-content">
+                                <h3>Phone</h3>
+                                <a href="tel:+254775934179">+254 775 934 179</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div class="info-content">
+                                <h3>Location</h3>
+                                <p>Upper Hill, Nairobi<br>Next to Magereza House</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">🕒</div>
+                            <div class="info-content">
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: By appointment<br><br>Postal Address: 838 - 00300<br>Ronald Ngala, Nairobi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="social-section">
+                        <h3>Follow Us</h3>
+                        <div class="social-links-large">
+                            <a href="#" aria-label="Instagram" target="_blank" rel="noopener" class="social-link">
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" aria-label="Facebook" target="_blank" rel="noopener" class="social-link">
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" aria-label="Twitter" target="_blank" rel="noopener" class="social-link">
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener" class="social-link">
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="map-wrapper">
+                <div class="map-placeholder">
+                    <p>Map integration would go here</p>
+                    <p class="map-note">To add Google Maps, replace this section with:</p>
+                    <code>&lt;iframe src="https://www.google.com/maps/embed?pb=..."&gt;&lt;/iframe&gt;</code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Photography</h3>
+                    <p>Capturing life's most precious moments with artistic vision and professional excellence.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="portfolio.html?category=wedding">Weddings</a></li>
+                        <li><a href="portfolio.html?category=portrait">Portraits</a></li>
+                        <li><a href="portfolio.html?category=fashion">Fashion</a></li>
+                        <li><a href="portfolio.html?category=commercial">Commercial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+                        <a href="#" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+                        <a href="#" aria-label="Twitter" target="_blank" rel="noopener">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Photography Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

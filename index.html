@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional photography portfolio featuring weddings, portraits, events, commercial, fashion, and nature photography. Capturing timeless moments with artistic vision.">
+    <meta name="keywords" content="photography, wedding photographer, portrait photography, event photography, commercial photography, fashion photography">
+    <meta name="author" content="Photography Portfolio">
+    <title>B.M.M Photography | Capturing Timeless Moments</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">B.M.M Photography</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider" id="heroSlider">
+            <div class="hero-slide active">
+                <img src="images/hero-img/wedding.jpg" alt="Wedding photography - capturing timeless moments" loading="eager">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Capturing Timeless Moments</h1>
+                    <p class="hero-tagline">Wedding & Portrait Photography</p>
+                    <a href="portfolio.html" class="btn btn-primary">View Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <img src="images/hero-img/fashion.jpg" alt="Fashion photography - editorial style" loading="lazy">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Artistic Vision</h1>
+                    <p class="hero-tagline">Fashion & Commercial Photography</p>
+                    <a href="portfolio.html" class="btn btn-primary">Explore Work</a>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <img src="images/hero-img/nature.jpg" alt="Nature photography - scenic landscapes" loading="lazy">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Natural Beauty</h1>
+                    <p class="hero-tagline">Landscape & Travel Photography</p>
+                    <a href="portfolio.html" class="btn btn-primary">Discover More</a>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <img src="images/hero-img/portrait.jpg" alt="Portrait photography - professional portraits" loading="lazy">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Portrait Excellence</h1>
+                    <p class="hero-tagline">Professional Portrait Photography</p>
+                    <a href="portfolio.html" class="btn btn-primary">View Portraits</a>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <img src="images/hero-img/commercial.jpg" alt="Commercial photography - brand campaigns" loading="lazy">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Brand Storytelling</h1>
+                    <p class="hero-tagline">Commercial & Brand Photography</p>
+                    <a href="portfolio.html" class="btn btn-primary">See Commercial Work</a>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <img src="images/hero-img/event.jpg" alt="Event photography - capturing special occasions" loading="lazy">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Event Coverage</h1>
+                    <p class="hero-tagline">Corporate & Special Event Photography</p>
+                    <a href="portfolio.html" class="btn btn-primary">View Events</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-controls">
+            <button class="hero-prev" id="heroPrev" aria-label="Previous slide">‹</button>
+            <button class="hero-next" id="heroNext" aria-label="Next slide">›</button>
+        </div>
+        <div class="hero-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+            <span class="indicator" data-slide="4"></span>
+            <span class="indicator" data-slide="5"></span>
+        </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <section class="quick-nav">
+        <div class="container">
+            <div class="quick-nav-grid">
+                <a href="portfolio.html?category=wedding" class="quick-nav-item">
+                    <img src="images/hero-img/wedding.jpg" alt="Wedding Photography" loading="lazy">
+                    <div class="quick-nav-overlay">
+                        <h3>Weddings</h3>
+                    </div>
+                </a>
+                <a href="portfolio.html?category=portrait" class="quick-nav-item">
+                    <img src="images/hero-img/portrait.jpg" alt="Portrait Photography" loading="lazy">
+                    <div class="quick-nav-overlay">
+                        <h3>Portraits</h3>
+                    </div>
+                </a>
+                <a href="portfolio.html?category=fashion" class="quick-nav-item">
+                    <img src="images/hero-img/fashion.jpg" alt="Fashion Photography" loading="lazy">
+                    <div class="quick-nav-overlay">
+                        <h3>Fashion</h3>
+                    </div>
+                </a>
+                <a href="portfolio.html?category=commercial" class="quick-nav-item">
+                    <img src="images/hero-img/commercial.jpg" alt="Commercial Photography" loading="lazy">
+                    <div class="quick-nav-overlay">
+                        <h3>Commercial</h3>
+                    </div>
+                </a>
+                <a href="portfolio.html?category=event" class="quick-nav-item">
+                    <img src="images/hero-img/event.jpg" alt="Event Photography" loading="lazy">
+                    <div class="quick-nav-overlay">
+                        <h3>Events</h3>
+                    </div>
+                </a>
+                <a href="portfolio.html?category=nature" class="quick-nav-item">
+                    <img src="images/hero-img/nature.jpg" alt="Nature Photography" loading="lazy">
+                    <div class="quick-nav-overlay">
+                        <h3>Nature</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work -->
+    <section class="featured-work">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <p class="section-subtitle">A glimpse into our latest projects</p>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <img src="images/wedding/w-1.jpg" alt="Wedding photography featured work" loading="lazy">
+                    <div class="featured-overlay">
+                        <h3>Elegant Wedding</h3>
+                        <p>Timeless moments captured</p>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="images/portrait/p-1.jpg" alt="Portrait photography featured work" loading="lazy">
+                    <div class="featured-overlay">
+                        <h3>Portrait Session</h3>
+                        <p>Professional headshots</p>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="images/fashion/f-1.jpg" alt="Fashion photography featured work" loading="lazy">
+                    <div class="featured-overlay">
+                        <h3>Fashion Editorial</h3>
+                        <p>Editorial style shoot</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="portfolio.html" class="btn btn-secondary">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Capture Your Story?</h2>
+            <p>Let's discuss your photography needs and create something beautiful together.</p>
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Photography</h3>
+                    <p>Capturing life's most precious moments with artistic vision and professional excellence.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="portfolio.html?category=wedding">Weddings</a></li>
+                        <li><a href="portfolio.html?category=portrait">Portraits</a></li>
+                        <li><a href="portfolio.html?category=fashion">Fashion</a></li>
+                        <li><a href="portfolio.html?category=commercial">Commercial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+                        <a href="#" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+                        <a href="#" aria-label="Twitter" target="_blank" rel="noopener">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Photography Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

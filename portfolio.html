@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our photography portfolio featuring weddings, portraits, events, commercial, fashion, and nature photography. High-quality galleries showcasing our best work.">
+    <meta name="keywords" content="photography portfolio, wedding photos, portrait gallery, event photography, commercial photography, fashion photography">
+    <title>Portfolio | B.M.M Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">B.M.M Photography</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <section class="portfolio-header">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <p>Explore our collection of stunning photography across different categories</p>
+        </div>
+    </section>
+
+    <!-- Category Filters -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="category-filter active" data-category="all">All</button>
+                <button class="category-filter" data-category="wedding">Weddings</button>
+                <button class="category-filter" data-category="portrait">Portraits</button>
+                <button class="category-filter" data-category="fashion">Fashion</button>
+                <button class="category-filter" data-category="commercial">Commercial</button>
+                <button class="category-filter" data-category="event">Events</button>
+                <button class="category-filter" data-category="nature">Nature</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Wedding Photos -->
+                <div class="portfolio-item" data-category="wedding" 
+                     data-title="Elegant Wedding Ceremony" 
+                     data-description="A beautiful outdoor wedding ceremony captured with natural lighting. The couple's joy and emotion are perfectly preserved in this timeless moment."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/wedding/w-1.jpg" alt="Wedding photography - elegant ceremony" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Elegant Wedding</h3>
+                        <p>Timeless moments</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding"
+                     data-title="Romantic Wedding Moments"
+                     data-description="Intimate moments between the bride and groom during their special day. Captured with artistic vision and attention to detail."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/wedding/w-2.jpg" alt="Wedding photography - romantic moments" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Romantic Moments</h3>
+                        <p>Love captured</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding"
+                     data-title="Wedding Celebration"
+                     data-description="The joyful celebration and reception party. Guests dancing and celebrating the union of two souls."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/wedding/w-3.jpg" alt="Wedding photography - celebration" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Celebration</h3>
+                        <p>Joyful memories</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding"
+                     data-title="Intimate Wedding Moments"
+                     data-description="Emotional storytelling through photography. Capturing the essence of love and commitment."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/wedding/w-4.jpg" alt="Wedding photography - intimate moments" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Intimate Moments</h3>
+                        <p>Emotional storytelling</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="wedding"
+                     data-title="Beautiful Wedding Ceremony"
+                     data-description="A stunning ceremony that will be remembered forever. Every detail captured with professional excellence."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/wedding/w-5.jpg" alt="Wedding photography - beautiful ceremony" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Beautiful Ceremony</h3>
+                        <p>Unforgettable day</p>
+                    </div>
+                </div>
+
+                <!-- Portrait Photos -->
+                <div class="portfolio-item" data-category="portrait"
+                     data-title="Professional Headshot"
+                     data-description="Corporate portrait photography for professional use. Clean, professional, and impactful imagery."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/portrait/p-1.jpg" alt="Portrait photography - professional headshot" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Professional Headshot</h3>
+                        <p>Corporate portrait</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait"
+                     data-title="Artistic Portrait"
+                     data-description="Creative expression through portrait photography. Showcasing personality and character."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/portrait/p-2.jpg" alt="Portrait photography - artistic portrait" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Artistic Portrait</h3>
+                        <p>Creative expression</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait"
+                     data-title="Family Portrait"
+                     data-description="Generational memories captured in a beautiful family portrait session. Preserving family bonds for years to come."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/portrait/p-3.jpg" alt="Portrait photography - family portrait" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Family Portrait</h3>
+                        <p>Generational memories</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait"
+                     data-title="Lifestyle Portrait"
+                     data-description="Natural moments captured in an authentic lifestyle portrait session. Real emotions, real moments."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/portrait/p-4.jpg" alt="Portrait photography - lifestyle portrait" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Lifestyle Portrait</h3>
+                        <p>Natural moments</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portrait"
+                     data-title="Character Study"
+                     data-description="A deep dive into personality through portrait photography. Capturing the essence of the subject."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/portrait/p-5.jpg" alt="Portrait photography - character study" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Character Study</h3>
+                        <p>Personality captured</p>
+                    </div>
+                </div>
+
+                <!-- Fashion Photos -->
+                <div class="portfolio-item" data-category="fashion"
+                     data-title="Editorial Fashion Shoot"
+                     data-description="High fashion editorial photography showcasing the latest trends and styles. Creative direction and artistic vision."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/fashion/f-1.jpg" alt="Fashion photography - editorial style" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Editorial Style</h3>
+                        <p>High fashion</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="fashion"
+                     data-title="Runway Coverage"
+                     data-description="Fashion week runway coverage. Capturing the energy and style of the fashion industry."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/fashion/f-2.jpg" alt="Fashion photography - runway coverage" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Runway Coverage</h3>
+                        <p>Fashion week</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="fashion"
+                     data-title="Lookbook Shoot"
+                     data-description="Brand collection photography for fashion lookbooks. Showcasing products in their best light."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/fashion/f-3.jpg" alt="Fashion photography - lookbook shoot" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Lookbook Shoot</h3>
+                        <p>Brand collection</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="fashion"
+                     data-title="Street Style Photography"
+                     data-description="Urban fashion photography capturing street style and contemporary fashion trends."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/fashion/f-4.jpg" alt="Fashion photography - street style" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Street Style</h3>
+                        <p>Urban fashion</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="fashion"
+                     data-title="Beauty Editorial"
+                     data-description="Glamour shots and beauty editorial photography. Highlighting elegance and sophistication."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/fashion/f-5.jpg" alt="Fashion photography - beauty editorial" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Beauty Editorial</h3>
+                        <p>Glamour shots</p>
+                    </div>
+                </div>
+
+                <!-- Commercial Photos -->
+                <div class="portfolio-item" data-category="commercial"
+                     data-title="Product Photography"
+                     data-description="Professional product photography for brand marketing. Clean, detailed, and visually appealing."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/commercial/c-1.jpg" alt="Commercial photography - product shoot" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Product Shoot</h3>
+                        <p>Brand marketing</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial"
+                     data-title="Lifestyle Campaign"
+                     data-description="Brand storytelling through lifestyle photography. Connecting products with emotions and experiences."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/commercial/c-2.jpg" alt="Commercial photography - lifestyle campaign" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Lifestyle Campaign</h3>
+                        <p>Brand storytelling</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial"
+                     data-title="Corporate Branding"
+                     data-description="Professional imagery for corporate branding and business identity. Building trust through quality photography."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/commercial/c-3.jpg" alt="Commercial photography - corporate branding" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Branding</h3>
+                        <p>Professional imagery</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial"
+                     data-title="Advertising Campaign"
+                     data-description="Marketing visuals for advertising campaigns. Creating compelling imagery that drives engagement."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/commercial/c-4.jpg" alt="Commercial photography - advertising campaign" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Advertising Campaign</h3>
+                        <p>Marketing visuals</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="commercial"
+                     data-title="Brand Photography"
+                     data-description="Visual identity photography for brands. Creating a cohesive brand image through professional photography."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/commercial/c-5.jpg" alt="Commercial photography - brand photography" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Photography</h3>
+                        <p>Visual identity</p>
+                    </div>
+                </div>
+
+                <!-- Event Photos -->
+                <div class="portfolio-item" data-category="event"
+                     data-title="Corporate Gathering"
+                     data-description="Professional event photography for corporate gatherings and business meetings."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/event/e-1.jpg" alt="Event photography - corporate gathering" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Gathering</h3>
+                        <p>Business events</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="event"
+                     data-title="Concert Coverage"
+                     data-description="Live music photography capturing the energy and excitement of concerts and performances."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/event/e-2.jpg" alt="Event photography - concert coverage" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Concert Coverage</h3>
+                        <p>Live music</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="event"
+                     data-title="Party Celebration"
+                     data-description="Social event photography capturing the joy and celebration of special occasions."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/event/e-3.jpg" alt="Event photography - party celebration" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Party Celebration</h3>
+                        <p>Social events</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="event"
+                     data-title="Cultural Occasion"
+                     data-description="Traditional event photography preserving cultural heritage and celebrations."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/event/e-4.jpg" alt="Event photography - cultural occasion" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Cultural Occasion</h3>
+                        <p>Traditional events</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="event"
+                     data-title="Conference Coverage"
+                     data-description="Professional event photography for conferences, seminars, and corporate events."
+                     data-location="Nairobi, Kenya"
+                     data-date="2024">
+                    <img src="images/event/e-5.jpg" alt="Event photography - conference coverage" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Conference Coverage</h3>
+                        <p>Professional events</p>
+                    </div>
+                </div>
+
+                <!-- Nature Photos -->
+                <div class="portfolio-item" data-category="nature"
+                     data-title="Scenic Landscape"
+                     data-description="Natural beauty captured in breathtaking landscape photography. Showcasing the wonders of nature."
+                     data-location="Kenya"
+                     data-date="2024">
+                    <img src="images/nature/n-1.jpg" alt="Nature photography - scenic landscape" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Scenic Landscape</h3>
+                        <p>Natural beauty</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="nature"
+                     data-title="Wildlife Photography"
+                     data-description="Animal portraits capturing the beauty and majesty of wildlife in their natural habitat."
+                     data-location="Kenya"
+                     data-date="2024">
+                    <img src="images/nature/n-2.jpg" alt="Nature photography - wildlife photography" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Wildlife Photography</h3>
+                        <p>Animal portraits</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="nature"
+                     data-title="Travel Destination"
+                     data-description="Adventure photography capturing stunning travel destinations and scenic locations."
+                     data-location="Kenya"
+                     data-date="2024">
+                    <img src="images/nature/n-3.jpg" alt="Nature photography - travel destination" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Travel Destination</h3>
+                        <p>Adventure captured</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="nature"
+                     data-title="Natural Scenery"
+                     data-description="Breathtaking views of natural scenery. Preserving the beauty of our natural world."
+                     data-location="Kenya"
+                     data-date="2024">
+                    <img src="images/nature/n-4.jpg" alt="Nature photography - natural scenery" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Natural Scenery</h3>
+                        <p>Breathtaking views</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="nature"
+                     data-title="Outdoor Adventure"
+                     data-description="Nature exploration photography capturing outdoor adventures and natural landscapes."
+                     data-location="Kenya"
+                     data-date="2024">
+                    <img src="images/nature/n-5.jpg" alt="Nature photography - outdoor adventure" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Outdoor Adventure</h3>
+                        <p>Nature exploration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Interested in Working Together?</h2>
+            <p>Let's discuss your photography needs and create something beautiful.</p>
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Photography</h3>
+                    <p>Capturing life's most precious moments with artistic vision and professional excellence.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="portfolio.html?category=wedding">Weddings</a></li>
+                        <li><a href="portfolio.html?category=portrait">Portraits</a></li>
+                        <li><a href="portfolio.html?category=fashion">Fashion</a></li>
+                        <li><a href="portfolio.html?category=commercial">Commercial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+                        <a href="#" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+                        <a href="#" aria-label="Twitter" target="_blank" rel="noopener">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Photography Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Detail Modal -->
+    <div class="image-modal" id="imageModal" style="display: none;">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-image-wrapper">
+                <img id="modalImage" src="" alt="">
+            </div>
+            <div class="modal-info">
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription"></p>
+                <div class="modal-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Location:</span>
+                        <span id="modalLocation"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Date:</span>
+                        <span id="modalDate"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Category:</span>
+                        <span id="modalCategory"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
