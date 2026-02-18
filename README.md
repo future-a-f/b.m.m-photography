@@ -6,27 +6,27 @@ A modern, responsive photography portfolio website built with HTML, CSS, and Jav
 
 ### Design Principles
 
-- ✅ **Minimalist Layouts**: Clean, uncluttered designs with plenty of whitespace
-- ✅ **Immersive Galleries**: Full-screen slideshows, lightbox effects, and grid layouts
-- ✅ **Consistent Branding**: Unified fonts, colors, and visual identity
-- ✅ **Responsive Design**: Optimized for mobile, tablet, and desktop viewing
-- ✅ **Interactive Elements**: Subtle animations, hover effects, and smooth transitions
+-  **Minimalist Layouts**: Clean, uncluttered designs with plenty of whitespace
+-  **Immersive Galleries**: Full-screen slideshows, lightbox effects, and grid layouts
+-  **Consistent Branding**: Unified fonts, colors, and visual identity
+-  **Responsive Design**: Optimized for mobile, tablet, and desktop viewing
+-  **Interactive Elements**: Subtle animations, hover effects, and smooth transitions
 
 ### Required Standards
 
-- ✅ **High-Resolution Images**: Optimized for fast loading while maintaining quality
-- ✅ **Accessibility Compliance**: Alt text, readable fonts, proper contrast ratios (WCAG standards)
-- ✅ **Fast Performance**: Lazy loading, optimized image delivery
-- ✅ **SEO-Friendly**: Metadata, captions, keyword-rich descriptions
-- ✅ **Clear Navigation**: Simple menus for easy exploration
-- ✅ **Client-Focused Features**: Contact forms, booking options, testimonials, pricing
+- **High-Resolution Images**: Optimized for fast loading while maintaining quality
+- **Accessibility Compliance**: Alt text, readable fonts, proper contrast ratios (WCAG standards)
+- **Fast Performance**: Lazy loading, optimized image delivery
+- **SEO-Friendly**: Metadata, captions, keyword-rich descriptions
+- **Clear Navigation**: Simple menus for easy exploration
+- **Client-Focused Features**: Contact forms, booking options, testimonials, pricing
 
 ### Extra Features
 
-- ✅ **Storytelling**: Project descriptions and narratives
-- ✅ **Blog Section**: Photography tips, behind-the-scenes stories, project updates
-- ✅ **Social Media Integration**: Links to Instagram, Facebook, Twitter
-- ✅ **E-commerce Ready**: Structure for selling prints, presets, or workshops
+- **Storytelling**: Project descriptions and narratives
+- **Blog Section**: Photography tips, behind-the-scenes stories, project updates
+- **Social Media Integration**: Links to Instagram, Facebook, Twitter
+- **E-commerce Ready**: Structure for selling prints, presets, or workshops
 
 ## Structure
 
@@ -223,4 +223,4 @@ This project is open source and available for personal and commercial use.
 
 For questions or issues, please contact through the website's contact form.
 
-Built with ❤️ for photographers who want to showcase their work beautifully.
+Built with ❤️ by Amon Wanyonyi for photographers who want to showcase their work beautifully.
